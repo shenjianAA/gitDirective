@@ -1,0 +1,77 @@
+/*通用样式*/
+*{
+    box-sizing:border-box;
+}
+body,h1,h2,h3,h4,h5,h6,p,ul,ol,dl,dd,dt{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+body{
+    font:12px "microsoft yahei",Arial,Helvetica,sans-serif;
+    color:#666;
+    background-color:#F5F5F5;
+}
+.lf{float:left;}
+.rt{float:right;}
+.clear{clear:both;}
+a{text-decoration:none;
+    color:#666;}
+a:hover{
+    color:#ff0700;
+    text-decoration:underline;
+}
+
+    header{
+        background-color:#ddd;
+        height:40px;
+        line-height:40px;
+    }
+    header span{
+        padding:3px 0 3px 6px;
+    }
+    div.cardID,div.send{
+        padding:16px 0 16px 7px;
+        border-bottom:1px solid #ddd;
+        background-color:#fff;
+    }
+    div.cardID span{
+        font-size:15px;
+        color:black;
+    }
+    div.cardID input{
+        border:none;
+        outline:none;
+        width:180px;
+    }
+    div.send button{
+        border-radius:12px;
+        color:#fff;
+        padding:5px 10px;
+        background-color:#e4393c;
+        border:0;
+        font-weight:bold;
+        font-size:10px;
+        width:80px;
+        outline:none;
+    }
+    div.send input{
+        border:none;
+        outline:none;
+        width:180px;
+        margin-left:10px;
+    }
+    footer{
+        padding:20px 10px 0 10px;
+    }
+    footer button{
+        color:#fff;
+        background-color:#e4393c;
+        width:100%;
+        border:0;
+        height:30px;
+        line-height:30px;
+        border-radius:10px;
+        font-weight:bold;
+        outline:none;
+    }
